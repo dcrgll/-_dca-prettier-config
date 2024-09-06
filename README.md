@@ -1,1 +1,4 @@
-# prettier-config
+@_dca/prettier-config
+
+My personal Prettier config.
+
