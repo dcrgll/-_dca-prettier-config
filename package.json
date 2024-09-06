@@ -34,5 +34,11 @@
   },
   "peerDependencies": {
     "prettier": "^3.3.3"
+  },
+  "release-it": {
+    "$schema": "https://unpkg.com/release-it/schema/release-it.json",
+    "github": {
+      "release": true
+    }
   }
 }
