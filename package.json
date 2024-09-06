@@ -1,6 +1,6 @@
 {
   "name": "@dc_/prettier-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Prettier config",
   "main": "src/index.mjs",
   "scripts": {
