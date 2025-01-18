@@ -7,7 +7,8 @@
     "test": "npm run lint",
     "lint": "eslint .",
     "prettier": "prettier . --write",
-    "release": "release-it"
+    "release": "release-it",
+    "dep-updates": "npx npm-check-updates -u"
   },
   "repository": {
     "type": "git",
@@ -24,13 +25,13 @@
   },
   "homepage": "https://github.com/dcrgll/prettier-config",
   "dependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
-    "prettier-plugin-packagejson": "^2.5.2",
-    "prettier-plugin-tailwindcss": "^0.6.6"
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
+    "prettier-plugin-packagejson": "^2.5.8",
+    "prettier-plugin-tailwindcss": "^0.6.10"
   },
   "devDependencies": {
-    "prettier": "^3.3.3",
-    "release-it": "^17.6.0"
+    "prettier": "^3.4.2",
+    "release-it": "^18.1.1"
   },
   "peerDependencies": {
     "prettier": "^3.3.3"
